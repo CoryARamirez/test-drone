@@ -1,0 +1,13 @@
+workspace:
+  base: /go
+  path: src/github.com/CoryARamirez/drone-test
+
+
+pipeline:
+  build:
+    image: golang
+    commands:
+      - go build
+
+
+
